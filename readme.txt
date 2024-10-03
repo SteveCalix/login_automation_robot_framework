@@ -1,4 +1,5 @@
 Automated tests for https://practicetestautomation.com/practice-test-login were created using Robot Framework
+and Robot Framework Selenium Library
 
 The login tests are ran for chrome, edge, and firefox. Additional browsers can be added as needed in the commented
 section of the login_tests.robot file. If there are any failures in the tests, a screenshot of the browser is
