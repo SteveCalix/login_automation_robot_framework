@@ -6,7 +6,7 @@ section of the login_tests.robot file. If there are any failures in the tests, a
 automatically created if possible.
 
 Setup steps on local environment:
-1. Install python. Latest version is compatible.
+1. Install python. Latest version (3.12) is compatible.
 
 2. Create a directory where all the code will be copied or downloaded to e.g. login_automation
 
