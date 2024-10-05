@@ -4,7 +4,6 @@ Resource    ../resources/pages/login_page.robot
 Resource    ../resources/pages/login_success_page.robot
 Variables    ../resources/test_data/login_data.py
 Test Template    Test Login Page
-Suite Setup
 Suite Teardown      Close All Browsers
 
 *** Test Cases ***
