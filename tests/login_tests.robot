@@ -35,21 +35,21 @@ Valid Login
     Click Log Out Button
 
 
-Invalid User Login
+Invalid User
     Enter Username    ${Invalid_Username}
     Enter Password    ${Password}
     Submit Credentials
     wait until page contains element    ${ErrorMessageLocator}
-    wait until keyword succeeds    3x    10s
+    wait until keyword succeeds    3x    5s
     ...    element text should be    ${ErrorMessageLocator}    ${IncorrectUsernameMessaage}
 
 
-Invalid Password Login
+Invalid Password
     Enter Username    ${Username}
     Enter Password    ${Wrong_Password}
     Submit Credentials
     wait until page contains element    ${ErrorMessageLocator}
-    wait until keyword succeeds    3x    10s
+    wait until keyword succeeds    3x    5s
     ...    element text should be    ${ErrorMessageLocator}    ${IncorrectPasswordMessaage}
 
 
@@ -57,7 +57,7 @@ Test Login Page
     [Arguments]    ${BROWSER}
     Open Login Page    ${BROWSER}
     Valid Login
-    Invalid User Login
-    Invalid Password Login
+    Invalid User
+    Invalid Password
     close browser
 
