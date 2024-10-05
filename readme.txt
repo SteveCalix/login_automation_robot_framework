@@ -26,5 +26,4 @@ Setup steps on local environment:
 7. To run the tests, run the following command. This will generate 3 files,log.html, output.xml, and report.html.
    robot tests/login_tests.robot
 
-8. Details of the test run are in output.xml and can be viewed as an html file in log.html while report.html provides a
-   summary of the test run.
+8. Details of the test run are in output.xml and can be viewed as an html file in log.html while report.html provides a summary of the test run.
